@@ -1,0 +1,40 @@
+    .flex-container-lista-title {
+        display: flex;
+        align-items: center;   
+      }
+      
+      .flex-container-lista-title > div {
+        color: #333333;
+        text-align: center;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .margin-10 {
+        margin: 10px;
+    }
+
+    .iconArrow a:link, 
+.iconArrow a:hover, 
+.iconArrow a:visited{
+   color: #006497;
+   margin-left: 10px;
+   margin-right: 10px;
+ }
+
+.iconArrowDisabled a:link, 
+.iconArrowDisabled a:hover, 
+.iconArrowDisabled a:visited{
+   color: #c0c0c0;
+ }
+
+ .titleDate {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(27, 64, 165);
+    
+  }

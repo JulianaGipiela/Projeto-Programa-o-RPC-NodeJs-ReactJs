@@ -1,0 +1,77 @@
+    .flex-container-now {
+        display: flex;
+        align-items: center;  
+        justify-content: flex-start; 
+        flex-wrap: wrap;
+        border-width: 1px;
+        border-color: #006497;
+        border-style: solid;
+        border-radius: 10px;
+        background-color: #006497;
+        background-image: linear-gradient(150deg, #006497 , #33A8CA);
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      
+      .flex-container-now > div {
+        color: #333333;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;   
+      }
+
+      .img-now {
+        width: 180px;
+        height: auto;
+        clip-path: circle(90px at center);
+        -webkit-clip-path: circle(50px at center);
+      }
+
+      .marginLive {
+        margin-left: 10px;
+      }
+
+      .titleNow-content-hr {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px #FF0000;
+        text-transform: uppercase;
+        width: 100%;
+        border-bottom-color: #ffffff;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+      }
+
+      .titleNow-content {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+      }
+    
+      .titleNow-content-hr {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px #FF0000;
+        text-transform: uppercase;
+        width: 100%;
+        border-bottom-color: #ffffff;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        text-align: left;
+        font-weight: bold;
+        color: rgb(27, 64, 165);
+    }
